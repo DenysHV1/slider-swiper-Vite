@@ -1,0 +1,27 @@
+
+@import url('./reset.css');
+
+.swiper-wrapper {
+	width: 600px;
+	height: 300px;
+  }
+
+  .swiper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* max-width: 600px; */
+	
+  }
+
+  .swiper__img{
+	object-fit: cover;
+object-position: center;
+height: 360px;
+  }
+
+  .swiper-slide{
+	border-radius: 30px;
+	max-height: 360px;
+	overflow: hidden;
+  }
